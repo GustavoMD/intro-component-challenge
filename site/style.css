@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root {
+    /* Colors */
+    --color-brand: hsl(0, 100%, 74%);
+    --color-brand-text: hsl(0, 0%, 100%);
+    --color-success: hsl(154, 59%, 51%);
+    --color-success-text: hsl(0, 0%, 100%);
+    --color-accent: hsl(248, 32%, 49%);
+    --color-accent-text: hsl(0, 0%, 100%);
+    --color-card: hsl(0, 0%, 100%);
+    --color-card-text: hsl(249, 10%, 26%);
+    --color-card-text-light: hsl(246, 25%, 77%);
+    
+    /* Fonts */
+    --font-family-brand: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-family-brand);
+}
